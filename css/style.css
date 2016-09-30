@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Lucida, sans-serif;
+}
+
+/*HEADER*/
+
+header {
+  margin: 18px 0px 11px 0px;
+}
+
+.tophead {
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  width: 22px;
+  height: 22px;
+  margin: 5px;
+}
+
+.ph_number1 {
+  color: #5e696d;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 8px;
+  margin-top: 5px;
+}
+
+.ph_number2 {
+  color: #5e696d;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-right: 17px;
+  margin-top: 5px;
+}
+
+.autorize {
+  display: flex;
+  justify-content: center;
+  width: 495px;
+  height: 25px;
+  background: linear-gradient(to top, #1f6787, #0d3458);
+  font-size: 12px;
+  border: 1px solid #a6c3cf;
+  border-radius: 3px;
+}
+
+.doll {
+  margin: 4px 3px 3px 7px;
+}
+
+.autorize form {
+  display: flex;
+  justify-content: center;
+}
+
+.autor {
+  width: 113px;
+  height: 16px;
+  margin: 3px 6px 4px 0px;
+}
+
+.autorize a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 5px 2px 5px;
+}
+
+.smallbar {
+  width: 1px;
+  height: 10px;
+  background-color: #ffffff;
+  border-left: 1px solid #4b6983;
+  margin: 8px 2px;
+}
+
+.autorize .forgot {
+  margin-left: 20px;
+  color: #bfbfbf;
+  text-decoration: underline;
+}
+
+.links {
+  margin: 5px 10px;
+  padding: 0px 9px;
+  border: 1px solid #c1c8cb;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
+/*HEADER ENDS HERE*/
+/*NAVIGATION*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 908px;
+  height: 34px;
+  background: linear-gradient(to top, #010101, #2d3236);
+  margin-top: 6px;
+  border: 1px solid #0d1642;
+  border-top: 1px solid #2c345a;
+  border-bottom: 1px solid #0a1030;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 1px rgba(82,81,82,1);
+  box-shadow: inset 0px 10px 10px -5px rgba(77,86,99,1);
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  height: 34px;
+}
+
+.navigation li {
+  margin: 3px;
+  padding: 5px 14px 4px 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-size: 13.64px;
+}
+
+.navigation li:hover {
+  background: linear-gradient(to top, #0d3458, #1f6787);
+  border-bottom: 1px solid #09233b;
+  border-radius: 10px;
+}
+
+.cart {
+  color: #929b9f;
+}
+
+.commodities {
+  color: #104c77;
+}
+
+.sum {
+  color: #104c77;
+}
+
+/*MAIN PART STRATS HERE*/
+
+main {
+
+}
+
+.middle_column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 526px;
+  height: 628px;
+  background: linear-gradient(to top, #93a7b0, #e4e7e8);
+}
+
+.tire {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 146px;
+  height: 184px;
+}
+
+.tire h6 {
+  font-size: 14.59px;
+  color: #206988;
+  margin: 0px 18px;
+}
+
+.name {
+  font-size: 12.77px;
+}
+
+.tire img {
+  width: 137px;
+  height: 127px;
+  background-color: #ffffff;
+  border: 1px solid #a7b1b4;
+  border-radius: 5px;
+}
+
+.tire_price {
+  font-family: Arial, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+  color: #114165;
+}
