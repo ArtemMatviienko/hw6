@@ -13,12 +13,9 @@ body {
 /*HEADER*/
 
 header {
-  margin: 18px 0px 11px 0px;
-}
-
-.tophead {
   display: flex;
   justify-content: center;
+  margin: 18px 0px 11px 0px;
 }
 
 .phone {
@@ -49,9 +46,11 @@ header {
   width: 495px;
   height: 25px;
   background: linear-gradient(to top, #1f6787, #0d3458);
-  font-size: 12px;
+  font-family: Lucida, Tahoma, sans-serif;
+  font-size: 10.91px;
   border: 1px solid #a6c3cf;
   border-radius: 3px;
+  box-shadow: 3px 3px 4px 0px rgba(180,180,180,1);
 }
 
 .doll {
@@ -86,11 +85,12 @@ header {
 .autorize .forgot {
   margin-left: 20px;
   color: #bfbfbf;
+  font-size: 12px;
   text-decoration: underline;
 }
 
 .links {
-  margin: 5px 10px;
+  margin: 2px 0px 10px 17px;
   padding: 0px 9px;
   border: 1px solid #c1c8cb;
   border-radius: 10px;
@@ -154,15 +154,94 @@ nav {
 /*MAIN PART STRATS HERE*/
 
 main {
-
+  display: flex;
+  justify-content: space-between;
+  width: 908px;
+  margin: 16px 0px 37px;
 }
 
+/*LEFT COLUMN*/
+
+.catalog {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 180px;
+  height: 24px;
+  margin: 4px 9px 15px 0px;
+  border: 1px solid  #8b979c;
+  border-radius: 13px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  color: #114165;
+  font-size: 12.73px;
+  text-transform: uppercase;
+}
+
+.list-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 148px;
+  height: 26px;
+  border: 1px solid #8b979c;
+  border-radius: 14px;
+  color: #114165;
+  text-transform: uppercase;
+}
+
+.left_column li {
+  list-style: circle;
+  margin: 0px 0px 10px 47px;
+}
+
+.left_column a {
+  text-decoration: none;
+  color: #465961;
+  font-family: Lucida, Tahoma, sans-serif;
+  font-size: 12.73px;
+}
+
+.left_column a:hover {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  color: #0c3256;
+  text-decoration: underline;
+}
+/*END OF LEFT COLUMN*/
+/*CIRCLE - LIST POINTER*/
+.circle {
+  display: block;
+  position: relative;
+  margin: 3px;
+}
+
+.inner-circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  margin: 5px 5px;
+}
+
+.outer-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #114165;
+  border-radius: 10px;
+}
+/*END OF CIRCLE*/
+/*MIDDLE COLUMN START*/
 .middle_column {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 526px;
   height: 628px;
+  border-bottom: 1px solid #a1b3bb;
+  border-radius: 5px;
   background: linear-gradient(to top, #93a7b0, #e4e7e8);
 }
 
@@ -198,4 +277,115 @@ main {
   font-size: 16px;
   font-weight: bold;
   color: #114165;
+}
+
+/*RIGHT COLUMN START*/
+
+.brand {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 180px;
+  height: 24px;
+  margin: 0px 0px 14px 9px;
+  border: 1px solid  #8b979c;
+  border-radius: 13px;
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+  color: #114165;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.right_column .list-head {
+  margin-bottom: 10px;
+}
+
+.right_column form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 190px;
+}
+
+.variants-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.variants-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-right: 15px;
+}
+
+form label {
+  margin: 0px 0px 10px 34px;
+  color: #465961;
+  font-family: Lucida, Tahoma, sans-serif;
+  font-size: 12.73px;
+}
+
+form button {
+  width: 80px;
+  height: 25px;
+  margin-top: 9px;
+  background: linear-gradient(to top, #0d3458, #1f6787);
+  border-radius: 13px;
+  border: 1px solid #697b8b;
+  color: #ffffff;
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/*FOOTER START*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 910px;
+  height: 100px;
+  margin-top: 24px;
+  border-top: 1px solid #242c3e;
+  border-left: 1px solid #242a3c;
+  border-right: 1px solid #223346;
+  background: #213a4d;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #bec6c9;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #52abcb;
+}
+
+footer .footbar {
+  width: 1px;
+  height: 11px;
+  background: #8d989f;
+  border-left: 1px solid #7a878f;
+  margin: 5px 12px;
+}
+
+footer .copyright {
+  font-family: Arial, Tahoma, sans-serif;
+  font-size: 10px;
+  color: #7f4740;
 }
