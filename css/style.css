@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+}
+
+
+
+h6 {
+  margin-top: 3px;
+  font-weight: 900;
+}
+
+h5 {
+  font-weight: 900;
+}
+
+.leftform {
+  border: 1px solid #999;
+  border-radius: 17px;
+  width: 414px;
+  /*height: 134px;*/
+  box-shadow: 4px 4px 7px 0px rgba(153,153,153,1);
+  padding: 7px;
+}
+
+.topform {
+  display: flex;
+  justify-content: space-between;
+  color: #0c3256;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100px;
+  margin-bottom: 5px;
+  border: 2px solid #9f9f9f;
+  border-bottom: none;
+  border-right: none;
+}
+
+.mainform {
+  display: flex;
+  width: 414px;
+  justify-content: space-around;
+}
+
+.ftext {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.ftext span {
+  font-size: 9px;
+  color: #77858b;
+}
+
+.fselect {
+  margin-bottom: 5px;
+}
+
+.shortsel {
+  width: 56px;
+}
+
+.auto {
+  font-size: 8px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.search a {
+  font-style: italic;
+  color: #0c3256;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/*___________________Центральная форма___________________________*/
+.centerform {
+  /*padding: 20px;*/
+  border: 1px solid #999;
+  border-radius: 17px;
+  width: 193px;
+  box-shadow: 4px 4px 7px 0px rgba(153,153,153,1);
+}
+
+.size-sel {
+  width: 51px;
+}
+
+.R{
+  display: flex;
+  justify-content: center;
+  margin-right: 35px;
+  font-size: 11px;
+}
+
+.R span {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.R-sel {
+  width: 45px;
+}
+
+.season {
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.season span {
+  font-size: 10px;
+}
+
+.check {
+  margin-left: 5px;
+  width: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 12px;
+}
+
+.header-center {
+  text-transform: uppercase;
+  color: #0c3256;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.size {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.size span {
+  margin-top: 7px;
+  margin-right: 4px;
+}
+
+.slash {
+  margin-top: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+input[type="checkbox"] {
+  border: 1px solid black;
+}
+
+/*__________________________Правая форма___________________________*/
+
+
+.rightform {
+  border: 1px solid #999;
+  border-radius: 17px;
+  width: 266px;
+  box-shadow: 4px 4px 7px 0px rgba(153,153,153,1);
+}
+
+.mainrightform {
+  display: flex;
+}
+
+.disc {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  width: 100px;
+}
+
+.disc-sel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+}
+
+
+.mainrightform .line {
+  width: 2px;
+  height: 50px;
+  background-color: #0c3256;
+}
+
+.mainrightform .dco {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.mainrightform .dco select {
+  width: 50px;
+}

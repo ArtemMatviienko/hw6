@@ -4,9 +4,130 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   <title>Document</title>
 </head>
 <body>
+  <div class="forms">
+    <div class="leftform">
+      <div class="topform">
+        <h6>Диски:</h6>
+        <h5>Поиск по автомобилю</h5>
+        <h6>Шины:</h6>
+      </div>
+      <div class="mainform">
+          <div class="ftext">
+            <label for="mark">Макрка <span class="auto">авто</span></label>
+            <label for="model">Модель <span>автомобиля</span></label>
+            <label for="year">Год выпуска <span>автомобиля</span></label>
+            <label for="complect">Комплектация</label>
+          </div>
+          <div class="fselect">
+            <select id="mark" name="">
+              <option value=""></option>
+            </select>
+            <select id="model" name="">
+              <option value=""></option>
+            </select>
+            <select id="year" class="shortsel" name="">
+              <option value=""></option>
+            </select>
+            <select id="complect" name="">
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="ftext">
+            <label for="mark">Макрка <span class="auto">авто</span></label>
+            <label for="model">Модель <span>автомобиля</span></label>
+            <label for="year">Год выпуска <span>автомобиля</span></label>
+            <label for="complect">Комплектация</label>
+          </div>
+          <div class="fselect">
+            <select id="mark" name="">
+              <option value=""></option>
+            </select>
+            <select id="model" name="">
+              <option value=""></option>
+            </select>
+            <select id="year" class="shortsel" name="">
+              <option value=""></option>
+            </select>
+            <select id="complect" name="">
+              <option value=""></option>
+            </select>
+          </div>
+      </div>
+      <div class="search">
+        <a href="#">Поиск...</a>
+      </div>
+    </div>
 
+<!--___________________________ Центральная форма_________________________ -->
+
+    <div class="centerform">
+      <h5 class="header-center">Поиск шин</h5>
+      <div class="size">
+        <span>Размер:</span>
+        <select class="size-sel" name="">
+          <option value=""></option>
+        </select>
+        <span class="slash">/</span>
+        <select class="size-sel" name="">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="R">
+        <span>R</span><select class="R-sel" name="">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="season">
+        <span>Сезон:</span>
+        <div class="check">
+          <label for=""><input type="checkbox" name="name" value="">лето</label>
+          <label for=""><input type="checkbox" name="name" value="">зима</label>
+          <label for=""><input type="checkbox" name="name" value="">всесез</label>
+        </div>
+      </div>
+      <div class="search">
+        <a href="#">Поиск...</a>
+      </div>
+    </div>
+    <div class="rightform">
+      <h5 class="header-center">Поиск дисков</h5>
+      <div class="mainrightform">
+        <div class="disc">
+          <label for="diamdisc">Диаметр <span class="auto">диска</span></label>
+          <label for="col">Количесво <span>крепёжных отверстий</span></label>
+          <label for="diamko">Диаметр <span>расположения крепежных отверстий</span></label>
+        </div>
+        <div class="disc-sel">
+          <select id="diamdisc" name="">
+            <option value=""></option>
+          </select>
+          <select id="col" name="">
+            <option value=""></option>
+          </select>
+          <select id="diamko" class="shortsel" name="">
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="line"></div>
+        <div class="dco">
+          <label for="dcoID">ДЦО</label>
+           <label for="dcoID"><span>(диаметр центрального отверстия):</span></label>
+            <select id="dcoID" name="">
+              <option value="12"></option>
+            </select>
+
+          <label for="et">ЕТ</label>
+          <label for="et"><span>(вылет диска)</span></label>
+            <select id="et" name="">
+              <option value="12"></option>
+            </select>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
